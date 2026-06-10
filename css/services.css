@@ -1,0 +1,90 @@
+:root{
+    --primary-color: #4B2E2B;
+    --secondary-color: #A67B5B;
+    --base-color: #FFF8F0;
+    --accent-color: #7A8C66;
+    --text-color: #190F0E;
+}
+
+.services-breadcrumb{
+    margin-bottom: 40px;
+}
+.btn-label{
+        color: var(--primary-color);
+    background-color: var(--base-color);
+    border: var(--primary-color) 1px solid;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.kids-service {
+    margin: 80px 100px;
+}
+
+.kids-title h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+
+.kids-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.kids-grid-top {
+    display: flex;
+    gap: 60px;
+    align-items: start;
+}
+
+.kids-grid-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.kids-grid-img {
+    width: 50%;
+}
+
+.kids-grid-img img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.kids-grid-text {
+    margin-bottom: 30px;
+}
+
+.kids-grid-text p {
+    margin-top: 12px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: var(--t);
+}
+.kids-grid-bottom {
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
+}
+
+.kids-grid-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.kids-grid-img-small {
+    display: flex;
+    gap: 40px;
+}
+.kids-grid-img-small img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 4px;
+}

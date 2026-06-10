@@ -1,0 +1,136 @@
+:root{
+    --primary-color: #4B2E2B;
+    --secondary-color: #A67B5B;
+    --base-color: #FFF8F0;
+    --accent-color: #7A8C66;
+    --text-color: #190F0E;
+}
+.workshop {
+    padding: 80px 100px;
+}
+
+.workshop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.workshop-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.workshop-header p:first-child {
+    color: var(--accent-color);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.workshop-header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.workshop-header p:last-child {
+    font-size: 20px;
+}
+
+/* LIST */
+.workshop-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* ITEM */
+.workshop-item {
+    display: flex;
+    gap: 40px;
+    background: var(--accent-color);
+    padding: 30px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+/* IMAGE */
+.workshop-img {
+    width: 45%;
+}
+
+.workshop-img img {
+    width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* CONTENT */
+.workshop-content {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.workshop-content h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: var(--base-color);
+}
+
+.workshop-content p {
+    font-size: 14px;
+    color: var(--base-color);
+    margin-bottom: 20px;
+}
+.workshop-box {
+    min-height: 200px; 
+    background: var(--base-color);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.workshop-section {
+    margin-bottom: 16px;
+}
+
+.workshop-section h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: var(--text-color);
+}
+
+.workshop-section p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.workshop-box p  {
+    font-size: 10px;
+    color: var(--text-color);
+}
+
+/* FOOTER */
+.workshop-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workshop-footer span {
+    font-size: 16px;
+    color: var(--base-color);
+}
+
+.btn {
+    background: var(--text-color);
+    color: var(--base-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
